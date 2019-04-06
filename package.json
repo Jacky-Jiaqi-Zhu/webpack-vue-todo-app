@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "todo list app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js"
+  },
+  "author": "Jacky Zhu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jacky-Jiaqi-Zhu/webpack-vue-todo-app.git"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
