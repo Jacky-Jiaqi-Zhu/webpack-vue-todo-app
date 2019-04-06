@@ -30,8 +30,9 @@ const config = {
                 ]
             },
             {
-                test: /\.styl$/,
+                test: /\.styl(us)?$/,
                 use: [
+                    'vue-style-loader',
                     'style-loader', 
                     'css-loader', 
                     {
@@ -49,7 +50,7 @@ const config = {
                     loader: 'url-loader',
                     options: {
                         limit: 1024,
-                        name: 'webpack-[name].[ext]'
+                        name: '[name].[ext]'
                     }
                 }
             },
