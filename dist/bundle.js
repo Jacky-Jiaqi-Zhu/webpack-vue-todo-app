@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader/index.js!./src/assets/styles/test-stylus.styl":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader!./src/assets/styles/test-stylus.styl ***!
-  \***************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js?!./node_modules/stylus-loader/index.js!./src/assets/styles/test-stylus.styl":
+/*!***********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--3-2!./node_modules/stylus-loader!./src/assets/styles/test-stylus.styl ***!
+  \***********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  font-size: 20px;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/test-stylus.styl?./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  font-size: 20px;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/assets/styles/test-stylus.styl?./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src??ref--3-2!./node_modules/stylus-loader");
 
 /***/ }),
 
@@ -334,7 +334,7 @@ eval("module.exports = __webpack_require__.p + \"webpack-111.jpg\";\n\n//# sourc
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/stylus-loader!./test-stylus.styl */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/stylus-loader/index.js!./src/assets/styles/test-stylus.styl\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/assets/styles/test-stylus.styl?");
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/postcss-loader/src??ref--3-2!../../../node_modules/stylus-loader!./test-stylus.styl */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/src/index.js?!./node_modules/stylus-loader/index.js!./src/assets/styles/test-stylus.styl\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/assets/styles/test-stylus.styl?");
 
 /***/ }),
 

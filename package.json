@@ -15,6 +15,7 @@
     "url": "https://github.com/Jacky-Jiaqi-Zhu/webpack-vue-todo-app.git"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
     "webpack-cli": "^3.3.0"
   }
 }
